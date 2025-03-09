@@ -1,0 +1,73 @@
+.related-doctors {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .related-doctors h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .doctor-manage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between cards */
+  }
+  
+  .doctor-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s;
+    width: 200px; /* Fixed width */
+  }
+  
+  .doctor-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .doctor-card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover; /* Keeps the aspect ratio */
+  }
+  
+  .doctor-card-content {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .doctor-card-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  .doctor-card-specialization {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .doctor-card-availability {
+    font-size: 14px;
+    color: green; /* Available color */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .doctor-card {
+      width: 90%; /* Full width on small screens */
+    }
+  
+    .related-doctors h1 {
+      font-size: 24px; /* Smaller heading on small screens */
+    }
+  }
+  

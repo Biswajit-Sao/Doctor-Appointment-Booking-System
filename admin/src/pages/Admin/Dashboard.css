@@ -1,0 +1,135 @@
+/* Dashboard Layout */
+.dashboard {
+  max-width: 1200px;
+  margin: auto;
+  padding: 120px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Stats Section */
+.dashboard-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.stat-card {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-icon {
+  font-size: 2rem;
+  color: #4a90e2;
+  margin-right: 15px;
+}
+
+.stat-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Latest Booking Section */
+.latest-booking {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.latest-booking-header {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.latest-icon {
+  margin-right: 8px;
+  color: #ff8c00;
+}
+
+.appointment-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Appointment Cards */
+.appointment-card {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.appointment-info {
+  flex: 1;
+}
+
+.doctor-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.appointment-date {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Status and Button */
+.status-cancelled {
+  font-size: 0.9rem;
+  color: #ff4d4d;
+}
+
+.cancel-button {
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cancel-button:hover {
+  background-color: #d43f3f;
+}
+
+.doctor-imageles {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+

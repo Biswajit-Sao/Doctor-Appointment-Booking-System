@@ -1,0 +1,178 @@
+/* General Styles */
+.appointment-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 70px 20px 20px; /* 70px top padding */
+  font-family: Arial, sans-serif;
+}
+
+/* Doctor Banner */
+.doctor-banner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 90px;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.doctor-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.doctor-info {
+  gap: 20px;
+  flex: 1;
+}
+
+.doctor-info h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.doctor-info p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.doctor-info .about {
+  font-size: 14px;
+  color: #888;
+}
+
+.doctor-info .fee {
+  font-size: 18px;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+/* Booking Section */
+.booking-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-section h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #333;
+}
+
+.date-picker {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.date-item {
+  flex: 1 1 calc(14% - 10px);
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.date-item:hover {
+  background-color: #f0f0f0;
+}
+
+.date-item.selected {
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.time-picker {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.time-item {
+  flex: 1 1 calc(20% - 10px);
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.time-item:hover {
+  background-color: #f0f0f0;
+}
+
+.time-item.selected {
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.no-slots {
+  color: #888;
+  font-style: italic;
+}
+
+.book-btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #2c3e50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #1a252f;
+}
+
+/* Related Doctors Section */
+.related-doctors {
+  margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .doctor-banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .doctor-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .date-item {
+    flex: 1 1 calc(25% - 10px);
+  }
+
+  .time-item {
+    flex: 1 1 calc(33% - 10px);
+  }
+}
+
+@media (max-width: 480px) {
+  .date-item {
+    flex: 1 1 calc(50% - 10px);
+  }
+
+  .time-item {
+    flex: 1 1 calc(50% - 10px);
+  }
+}

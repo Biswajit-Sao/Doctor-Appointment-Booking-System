@@ -1,0 +1,59 @@
+.container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.doctor-manage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.doctor-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s;
+  width: 250px;
+  cursor: pointer;
+}
+
+.doctor-card:hover {
+  transform: translateY(-5px);
+}
+
+.doctor-card-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.doctor-card-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.doctor-card-specialization {
+  font-size: 16px;
+  color: #666;
+}
+
+.doctor-card-availability {
+  font-size: 14px;
+  font-weight: bold;
+  color: green;
+}
+
+.unavailable {
+  color: red;
+}

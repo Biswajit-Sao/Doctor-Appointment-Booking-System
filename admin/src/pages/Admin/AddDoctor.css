@@ -1,0 +1,124 @@
+/* Basic Reset */
+.from-contner-size {
+  position: absolute;
+  top: 70px;
+  margin-left: 200px;
+  padding: 20px;
+}
+
+/* Container */
+.form-container {
+display: flex;
+justify-content: center;
+align-items: flex-start;
+padding: 40px;
+background-color: #f9f9f9;
+}
+
+/* Image Section */
+.form-image-section {
+margin-right: 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.image-placeholder {
+width: 100px;
+height: 100px;
+background-color: #e0e0e0;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1rem;
+margin-bottom: 10px;
+}
+
+.image-placeholder img {
+height: 100%;
+width: 100%;
+border-radius: 50%;
+object-fit: cover;
+}
+
+/* Form */
+.doctor-form {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+max-width: 600px;
+width: 100%;
+}
+
+.form-group {
+display: flex;
+flex-direction: column;
+}
+
+.form-group label {
+font-size: 0.9rem;
+color: #555;
+margin-bottom: 5px;
+}
+
+.form-group input[type="text"], 
+.form-group input[type="email"],
+.form-group input[type="password"], 
+.form-group select, 
+.form-group textarea {
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 1rem;
+transition: border-color 0.3s ease;
+}
+
+.form-group input:focus, 
+.form-group select:focus, 
+.form-group textarea:focus {
+border-color: #4a90e2;
+}
+
+textarea {
+resize: none;
+height: 100px;
+}
+
+/* Full-width for textarea */
+.form-group:nth-child(9) {
+grid-column: span 2;
+}
+
+/* Submit Button */
+.submit-btn {
+grid-column: span 2;
+padding: 12px;
+font-size: 1rem;
+background-color: #4a90e2;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+background-color: #357abd;
+}
+
+/* Responsive Design: Changes to single-column layout on smaller screens */
+@media (max-width: 768px) {
+.doctor-form {
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+.form-image-section {
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+.submit-btn {
+  grid-column: span 1;
+}
+}

@@ -1,0 +1,117 @@
+/* Container styling for the entire profile */
+.calles-contrill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doctor-profile {
+    margin-top: 100px;
+    margin-left: 100px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+
+  }
+  
+  /* Doctor profile image */
+  .doctor-profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+    margin-bottom: 20px;
+  }
+  
+  /* Doctor name styling */
+  .doctor-profile .name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Degree and specialty */
+  .doctor-profile .degree-speciality {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .doctor-profile .experience-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* About section */
+  .doctor-profile .about-section {
+    margin-top: 15px;
+  }
+  
+  .doctor-profile .about-section p:first-child {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .doctor-profile .about-text {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Fees and address fields */
+  .doctor-profile .fees, .doctor-profile .address {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .doctor-profile .fees input, .doctor-profile .address input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+  }
+  
+  /* Availability checkbox */
+  .doctor-profile .availability {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+  }
+  
+  .doctor-profile .availability label {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Buttons styling */
+  .doctor-profile .edit-button, .doctor-profile .save-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .doctor-profile .edit-button {
+    background-color: #007bff;
+  }
+  
+  .doctor-profile .save-button {
+    background-color: #28a745;
+  }
+  

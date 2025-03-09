@@ -1,0 +1,90 @@
+.appointments-container {
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 20px;
+  }
+  
+  .appointments-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .appointments-table {
+    display: grid;
+    gap: 10px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-header, .table-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 2fr 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-header {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .table-row {
+    background-color: #fff;
+    border-radius: 4px;
+  }
+  
+  .patient-info, .payment-info, .action-icons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .patient-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .action-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .cancel-icon, .compliance-icon {
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  .cancelled-part-sate{
+    color: red;
+    font-size: 20px;
+  }
+  .cancellede-part-sate{
+    color: rgb(4, 231, 42);
+    font-size: 20px;
+  }
+  
+  .cancel-icon:hover {
+    color: red;
+  }
+  
+  .compliance-icon:hover {
+    color: green;
+  }
+  
+  @media (max-width: 768px) {
+    .appointments-table {
+      padding: 10px;
+    }
+  
+    .table-header, .table-row {
+      grid-template-columns: 1fr 1.5fr 1fr 1fr 1.5fr 1fr 1fr;
+    }
+  }
+  

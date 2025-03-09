@@ -1,0 +1,68 @@
+/* ContactUs.css */
+.contact-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    gap: 2rem;
+  }
+  
+  .contact-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-text {
+    flex: 1;
+    color: #333;
+  }
+  
+  .contact-text h2 {
+    font-size: 2rem;
+    color: #00796b;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+    color: #555;
+    text-align: justify;
+  }
+  
+  .explore-button {
+    padding: 0.8rem 2rem;
+    background-color: #00796b;
+    color: #ffffff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-button:hover {
+    background-color: #004d40;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-us {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .contact-image img {
+      width: 100%;
+      max-width: 400px;
+      margin-bottom: 1rem;
+    }
+  }
+  

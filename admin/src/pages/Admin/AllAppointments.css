@@ -1,0 +1,115 @@
+/* Container styling */
+.contnervalu-and-amrge {
+  margin-top: 100px;
+  margin-left: 100px;
+  padding: 20px;
+}
+
+.container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Appointment header styling */
+.appointment-header {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr 1fr 1.5fr 1.5fr 1fr 1fr 1fr;
+  font-weight: bold;
+  color: #555;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+/* Appointment list styling */
+.appointment-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.appointment-item {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr 1fr 1.5fr 1.5fr 1fr 1fr 1fr;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.appointment-item:hover {
+  background-color: #f1f1f1;
+}
+
+/* Cell styling */
+.cell {
+  text-align: center;
+}
+
+/* Patient and doctor information */
+.patient-info, .doctor-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.patient-info img, .doctor-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Fees and payment info */
+.cancelled {
+  color: red;
+  font-weight: bold;
+}
+
+.cancel-button {
+  padding: 6px 12px;
+  border: none;
+  background-color: #d9534f;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-button:hover {
+  background-color: #c9302c;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .appointment-header, .appointment-item {
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .patient-info img, .doctor-info img {
+    width: 30px;
+    height: 30px;
+  }
+}
+.khddf-fjsgdfgfbs{
+  color: rgb(24, 209, 0);
+  font-size: 20px;
+}

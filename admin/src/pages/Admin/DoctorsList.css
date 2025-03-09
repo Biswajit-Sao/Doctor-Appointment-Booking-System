@@ -1,0 +1,97 @@
+/* Container Layout */
+.doctor-data-container {
+  position: absolute;
+  top: 70px;
+  left: 80px;
+  margin: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Doctor Card */
+.doctor-card {
+  width: 100%;
+  max-width: 200px;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.doctor-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Doctor Image */
+.doctor-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+/* Doctor Info */
+.doctor-info {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.doctor-name {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+}
+
+.doctor-specialization {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Availability Checkbox */
+.availability {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.availability input[type="checkbox"] {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .doctor-card {
+    max-width: 180px;
+  }
+
+  .doctor-name {
+    font-size: 1.1rem;
+  }
+
+  .doctor-specialization {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .doctor-data-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .doctor-card {
+    width: 90%;
+    max-width: 320px;
+  }
+}
