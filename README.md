@@ -19,9 +19,9 @@ Use the following credentials to log into the admin dashboard:
 ## 📋 Features
 
 •  Developed a full-stack appointment booking system with three-level authentication (Patient, Doctor, Admin). 
-•   Implemented online payment integration for secure and hassle-free appointment fee transactions. 
+•  Implemented online payment integration for secure and hassle-free appointment fee transactions. 
 •  Enabled doctors to manage appointments & earnings and patients to book & track appointments seamlessly. 
-•   Designed a responsive and intuitive user interface for smooth user experience across all devices. 
+•  Designed a responsive and intuitive user interface for smooth user experience across all devices. 
 •  Built using MongoDB, Express.js, React.js, Node.js (MERN), ensuring a scalable and efficient solution.
 
 ## 🛠 Tech Stack
