@@ -30,5 +30,5 @@ Use the following credentials to log into the admin dashboard:
 - **Backend:** Node.js, Express.js, MongoDB 
 - **Hosting:** Netlify, Render
 
-## 📁 Project Structure (Optional)
+
 
