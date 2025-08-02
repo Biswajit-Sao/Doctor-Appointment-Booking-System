@@ -93,7 +93,7 @@ VITE_BACKEND_URL=http://localhost:8000
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/doctor-appointment-system.git
+   git clone https://github.com/Biswajit-Sao/Doctor-Appointment-Booking-System.git
    ```
 
 2. **Install Dependencies:**
